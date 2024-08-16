@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #121212;
+}
+
+a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header-buttons .btn {
+    background-color: #ff5722;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.header-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.stat {
+    font-size: 18px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.habits .habit-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.extra-mile .btn {
+    margin-top: 20px;
+}
+
+.training .training-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.training-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bmi .bmi-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bmi-form input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bmi-form button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.team .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .header-content {
+        margin-top: 40px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .habits .habit-cards, .training .training-cards, .team .team-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bmi-form input {
+        width: 100%;
+    }
+}
