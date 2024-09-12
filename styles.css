@@ -4,7 +4,6 @@
   font-style: normal;
 }
 
-/* ALL-COMMON-CSS-STYLE-START */
 * {
   margin: 0;
   padding: 0;
@@ -62,9 +61,7 @@ a {
 .links-bg {
   background-color: #e6533c;
 }
-/* ALL-COMMON-CSS-STYLE-END */
 
-/* NAVIGATION-PART-STYLE */
 #header {
   padding: 58px 0 0 0;
   background: linear-gradient(
@@ -108,9 +105,7 @@ a {
   text-transform: capitalize;
 }
 
-/* NAVIGATION-PART-STYLE */
 
-/* BANNER-PART-STYLE */
 .banner{
   gap: 160px;
   justify-content: space-between;
@@ -164,7 +159,7 @@ a {
 .banner-btn a{
   flex: 1;
 }
-/* Part-02 */
+
 .banner-img-container{
   max-width: 370px;
   flex-grow: 1;
@@ -173,7 +168,7 @@ a {
 .banner-img-container img{
   object-fit: cover;
 }
-/* -------------------- */
+
 .banner-img-container .video {
   background-color: rgb(255 255 255 / 20%);
   border-radius: 12px;
@@ -230,138 +225,7 @@ a {
   font-weight: 400;
   color: #efede8a6;
 }
-/* .banner {
-  grid-template-columns: 520px 440px;
-  gap: 100px;
-} */
-/* PART-01 */
 
-/* .banner-text-container {
-  margin-top: 65px;
-}
-.banner-text-container h3 {
-  font-size: 4.875rem;
-  font-weight: 900;
-  color: #fff;
-  line-height: 94px;
-}
-.banner-text-container .text-change {
-  font-family: "Fleur De Leah", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  text-transform: none;
-  font-size: 9.375rem;
-  margin-right: 15px;
-}
-.banner-text-container p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #fff;
-  margin: 30px 0;
-  letter-spacing: 0.5px;
-  line-height: 24px;
-}
-.banner-btn {
-  display: flex;
-  gap: 15px;
-  max-width: 80%;
-}
-.banner-btn a {
-  display: block;
-  text-align: center;
-  flex: 1;
-  padding: 16px 0 !important;
-}
-.btn a {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 16px 48px;
-  border-radius: 50px;
-  display: inline-block;
-  transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out;
-}
-.banner-text-container .btn .join-links {
-  border: 1px solid transparent;
-}
-.banner-text-container .btn a:hover {
-  border: 1px solid transparent;
-  background-color: #e6533c;
-} */
-/* PART-02 */
-/* .banner-img-container {
-  position: relative;
-}
-.banner-img-container img {
-  object-fit: contain;
-}
-.banner-img-container .video {
-  background-color: rgb(255 255 255 / 20%);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 16px 23px;
-  text-transform: capitalize;
-  position: absolute;
-  top: 185px;
-  right: -20px;
-}
-
-.banner-img-container .video h3 {
-  font-weight: 900;
-  font-size: 2.5rem;
-  color: #fff;
-  letter-spacing: 2px;
-}
-
-.banner-img-container .video p {
-  font-size: 0.813rem;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.651);
-}
-
-.banner-img-container .tutorial {
-  background-color: rgba(48 48 48 / 50%);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 20px 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 115px;
-  left: -50px;
-}
-
-.tutorial .icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 12px;
-}
-
-.tutorial i {
-  color: #fff;
-}
-
-.banner-img-container .tutorial .text h3 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: #fafaf9;
-  letter-spacing: 2px;
-}
-
-.banner-img-container .tutorial .text p {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #efede8a6;
-} */
-/* BANNER-PART-STYLE */
-
-/* HABIT-PART-STYLE */
 #habit-section {
   margin-top: 100px;
 }
