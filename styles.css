@@ -1,168 +1,847 @@
+/* FONT-LINKS */
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* FONT-LINKS */
+
+/* FONT-FAMILY */
 .first-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  ul,
-  ol,
-  a,
-  p {
-    margin: 0;
-  }
-  ul,
-  ol {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  .img-fluid {
-    width: 100%;
-    height: 100%;
-  }
-  .d-flex {
-    display: flex;
-  }
-  .d-grid {
-    display: grid;
-  }
-  .b-none {
-    border: none !important;
-  }
-  .d-lg-none {
-    display: none;
-  }
-  .container {
-    max-width: 1060px;
-    margin: 0 auto;
-  }
-  .bg {
-    background-color: black;
-  }
-  .t-t {
-    text-transform: capitalize;
-  }
-  .t-center {
-    text-align: center;
-  }
-  .links-bg {
-    background-color: #e6533c;
-  }
+/* ALL-COMMON-CSS-STYLE-START */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+a,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+}
+.b-none {
+  border: none !important;
+}
+.d-lg-none {
+  display: none;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.bg {
+  background-color: black;
+}
+.t-t {
+  text-transform: capitalize;
+}
+.t-center {
+  text-align: center;
+}
+.links-bg {
+  background-color: #e6533c;
+}
+/* ALL-COMMON-CSS-STYLE-END */
 
-  #header {
-    padding: 58px 0 0 0;
-    background: linear-gradient(
-      180deg,
-      rgb(26 26 26) 0%,
-      rgb(74 74 74) 50%,
-      rgb(10 10 10) 100%
-    );
-  }
-  #navbar {
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .page-logo a {
-    font-weight: 800;
-    font-size: 2.25rem;
-    color: #e6533c;
-  }
-  .nav-list {
-    border: 1px solid rgb(114 107 107);
-    padding: 4px;
-    border-radius: 40px;
-    gap: 47px;
-  }
-  .nav-list .nav-item {
-    padding: 8px 20px;
-    transition: all ease-in-out 0.5s;
-  }
-  .nav-list .nav-item:hover {
-    background-color: #e6533c;
-    border-radius: 45px;
-  }
-  .nav-list .nav-uni {
-    border-radius: 46px;
-  }
-  .nav-list .nav-item .nav-links {
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: #fff;
-    text-transform: capitalize;
-  }
-  .banner{
-    gap: 160px;
-    justify-content: space-between;
-  }
-  .banner-text-container{
-    max-width: 530px;
-    margin-top: 65px;
-  }
-  .banner-text-container h3 {
-    font-size: 4.875rem;
-    font-weight: 900;
-    color: #fff;
-    line-height: 94px;
-  }
-  .banner-text-container .text-change {
-    font-family: "Fleur De Leah", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    text-transform: none;
-    font-size: 9.375rem;
-    margin-right: 15px;
-  }
-  .banner-text-container p {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #fff;
-    margin: 30px 0;
-    letter-spacing: 0.5px;
-    line-height: 24px;
-  }
-  
-  .btn a {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 16px 48px;
-    border-radius: 50px;
-    display: inline-block;
-    text-align: center;
-    transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out;
-  }
-  .banner-text-container .btn .join-links {
-    border: 1px solid transparent;
-  }
-  .banner-btn {
-    display: flex;
-    gap: 15px;
-    max-width: calc(100% - 70px);
-  }
-  .banner-btn a{
-    flex: 1;
-  }
-  
-  .banner-img-container{
-    max-width: 370px;
-    flex-grow: 1;
-    position: relative;
-  }
-  .banner-img-container img{
-    object-fit: cover;
-  }
+/* NAVIGATION-PART-STYLE */
+#header {
+  padding: 58px 0 0 0;
+  background: linear-gradient(
+    180deg,
+    rgb(26 26 26) 0%,
+    rgb(74 74 74) 50%,
+    rgb(10 10 10) 100%
+  );
+}
+#navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.page-logo a {
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: #e6533c;
+}
+.nav-list {
+  border: 1px solid rgb(114 107 107);
+  padding: 4px;
+  border-radius: 40px;
+  gap: 47px;
+}
+.nav-list .nav-item {
+  padding: 8px 20px;
+  transition: all ease-in-out 0.5s;
+}
+.nav-list .nav-item:hover {
+  background-color: #e6533c;
+  border-radius: 45px;
+}
+.nav-list .nav-uni {
+  border-radius: 46px;
+}
+.nav-list .nav-item .nav-links {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* NAVIGATION-PART-STYLE */
+
+/* BANNER-PART-STYLE */
+.banner{
+  gap: 160px;
+  justify-content: space-between;
+}
+.banner-text-container{
+  max-width: 530px;
+  margin-top: 65px;
+}
+.banner-text-container h3 {
+  font-size: 4.875rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 94px;
+}
+.banner-text-container .text-change {
+  font-family: "Fleur De Leah", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 9.375rem;
+  margin-right: 15px;
+}
+.banner-text-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 30px 0;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.btn a {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 16px 48px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+.banner-text-container .btn .join-links {
+  border: 1px solid transparent;
+}
+.banner-btn {
+  display: flex;
+  gap: 15px;
+  max-width: calc(100% - 70px);
+}
+.banner-btn a{
+  flex: 1;
+}
+/* Part-02 */
+.banner-img-container{
+  max-width: 370px;
+  flex-grow: 1;
+  position: relative;
+}
+.banner-img-container img{
+  object-fit: cover;
+}
+/* -------------------- */
+.banner-img-container .video {
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 23px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 135px;
+  right: -65px;
+}
+.banner-img-container .video h3 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.banner-img-container .video p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.651);
+}
+.banner-img-container .tutorial {
+  background-color: rgba(48 48 48 / 50%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 75px;
+  left: -80px;
+}
+.tutorial .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.tutorial i {
+  color: #fff;
+}
+.banner-img-container .tutorial .text h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fafaf9;
+  letter-spacing: 2px;
+}
+.banner-img-container .tutorial .text p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #efede8a6;
+}
+/* .banner {
+  grid-template-columns: 520px 440px;
+  gap: 100px;
+} */
+/* PART-01 */
+
+/* .banner-text-container {
+  margin-top: 65px;
+}
+.banner-text-container h3 {
+  font-size: 4.875rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 94px;
+}
+.banner-text-container .text-change {
+  font-family: "Fleur De Leah", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 9.375rem;
+  margin-right: 15px;
+}
+.banner-text-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 30px 0;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.banner-btn {
+  display: flex;
+  gap: 15px;
+  max-width: 80%;
+}
+.banner-btn a {
+  display: block;
+  text-align: center;
+  flex: 1;
+  padding: 16px 0 !important;
+}
+.btn a {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 16px 48px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: background-color 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+.banner-text-container .btn .join-links {
+  border: 1px solid transparent;
+}
+.banner-text-container .btn a:hover {
+  border: 1px solid transparent;
+  background-color: #e6533c;
+} */
+/* PART-02 */
+/* .banner-img-container {
+  position: relative;
+}
+.banner-img-container img {
+  object-fit: contain;
+}
+.banner-img-container .video {
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 23px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 185px;
+  right: -20px;
+}
+
+.banner-img-container .video h3 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.banner-img-container .video p {
+  font-size: 0.813rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.651);
+}
+
+.banner-img-container .tutorial {
+  background-color: rgba(48 48 48 / 50%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 115px;
+  left: -50px;
+}
+
+.tutorial .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.tutorial i {
+  color: #fff;
+}
+
+.banner-img-container .tutorial .text h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fafaf9;
+  letter-spacing: 2px;
+}
+
+.banner-img-container .tutorial .text p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #efede8a6;
+} */
+/* BANNER-PART-STYLE */
+
+/* HABIT-PART-STYLE */
+#habit-section {
+  margin-top: 100px;
+}
+
+.habit-text-container {
+  max-width: 668px;
+  margin: auto;
+}
+
+.habit-text-container h3 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.habit-text-container p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding: 0px 1.25rem;
+  margin: 14px 0 58px 0;
+  line-height: 24px;
+}
+.habit-img-container {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.habit-img-item {
+  max-width: 235px;
+  margin: 0 auto;
+}
+.habit-img {
+  width: 180px;
+  height: 180px;
+  background: #1a1a1a;
+  padding: 4px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.habit-img img {
+  border-radius: 50%;
+}
+.habit-text h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #fff;
+  margin-top: 30px;
+}
+.habit-text p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 6px;
+  padding: 0 15px;
+  line-height: 20px;
+}
+
+#my-goal-section {
+  margin: 100px 0;
+}
+.container-bg {
+  background: #222222;
+  padding: 30px;
+  border-radius: 18px;
+  grid-template-columns: 500px 350px;
+  gap: 150px;
+}
+.goal-text-container {
+  padding-right: 120px;
+}
+.goal-text-container h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+}
+.goal-text-container p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 14px 0 30px 0;
+  line-height: 24px;
+}
+.goal-img-container img {
+  border-radius: 18px;
+  object-view-box: inset(20% 20% 42% 48%);
+  object-fit: cover;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+#our-service-part {
+  background: #1a1a1a;
+  padding: 90px 0;
+}
+.service-text {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.service-text h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.service-text p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 24px;
+}
+.services-list {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 60px;
+  gap: 20px;
+}
+.services-list-item {
+  border: 1px solid rgb(255 255 255 / 50%);
+  padding: 20px 30px;
+}
+.services-list-item .list-item-icon {
+  max-width: 70px;
+  height: 70px;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #e6533c;
+}
+.services-list-item h6 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 20px 0 15px 0;
+}
+.underline {
+  border-top: 3px solid #e6533c;
+  width: 85px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.services-list-item p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 50%);
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+
+.training-text-container {
+  max-width: 630px;
+  margin-bottom: 60px;
+}
+.training-text-container h3 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+}
+.training-text-container p {
+  font-weight: 400;
+  color: #fff;
+  font-size: 0.875rem;
+}
+.training-img-gallery {
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 200px);
+}
+.gallery-collage {
+  grid-column: span 3;
+  position: relative;
+}
+.gallery-collage-big {
+  grid-column: span 6;
+}
+.gallery-collage img {
+  height: 100%;
+}
+.sky-blue,
+.red-light,
+.black-white,
+.light-green,
+.light-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.sky-blue h5,
+.black-white h5,
+.light-green h5,
+.light-blue h5 {
+  position: absolute;
+  bottom: 28px;
+  left: 24px;
+}
+.red-light h5 {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+#collage-four h5 {
+  position: absolute;
+  bottom: 135px;
+  left: 330px;
+}
+.common-text h5 {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.sky-blue {
+  background: rgb(6 255 210 / 50%);
+}
+.red-light {
+  background: rgb(255 0 0 / 30%);
+}
+.black-white {
+  background: rgb(0 0 0 / 50%);
+}
+.light-green {
+  background: rgb(66 255 0 / 30%);
+}
+.light-blue {
+  background: rgb(0 72 255 / 50%);
+}
+
+#bmi-text-part {
+  margin: 90px 0;
+}
+.bmi-text {
+  max-width: 670px;
+  margin: 0 auto;
+}
+.bmi-text h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.bmi-text p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #ffffff;
+  padding-right: 35px;
+  line-height: 24px;
+}
+#bmi-calculator-part {
+  background-color: #222;
+  padding: 50px 0;
+}
+.bmi-calculator-container {
+  gap: 160px;
+  grid-template-columns: 370px 530px;
+}
+.bmi-chart-tittle h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+#bmi-chart-table {
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-bottom: none;
+}
+.table-head {
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+.table-head p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffff;
+  padding: 15px 0 15px 20px;
+  width: 50%;
+}
+.table-head h6 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 50%);
+  padding: 15px 0 15px 20px;
+  width: 50%;
+}
+.table-head .border-right {
+  border-right: 1px solid rgb(255 255 255 / 10%);
+}
+.text-content {
+  margin-bottom: 34px;
+}
+.text-content h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+}
+.text-content p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 50%);
+  padding-right: 30px;
+  line-height: 24px;
+}
+.data-input {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.data-input input,
+.activity {
+  padding: 12px 0 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #393939;
+  width: 100%;
+  height: 100%;
+}
+.data-input .size {
+  width: 50%;
+}
+.data-input .activity-div {
+  width: 100%;
+}
+.data-input .activity {
+  appearance: none;
+  cursor: pointer;
+}
+.data-input .activity option {
+  margin-top: 10px;
+}
+.data-input .position,
+.activity-div {
+  position: relative;
+}
+.data-input i,
+.activity-div i {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgb(255 255 255 / 60%);
+  font-size: 20px;
+}
+.data-input input::placeholder,
+select {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 60%);
+}
+.calculate-btn {
+  margin-top: 22px;
+}
+.calculate-btn button {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #e6533c;
+  padding: 15px 70px;
+  border: none;
+  border-radius: 50px;
+}
+
+#my-team-section {
+  margin: 90px 0;
+}
+.my-team-text {
+  margin-bottom: 60px;
+}
+.text-container {
+  max-width: 670px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.text-container h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+}
+.text-container p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #ffffff80;
+  margin-top: 14px;
+  line-height: 24px;
+}
+.my-team-container {
+  background-color: #1a1a1a;
+  border-radius: 18px;
+  padding: 20px;
+}
+.my-team-profile {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.profile-item {
+  /* max-width: 353px;
+  height: 270px; */
+  position: relative;
+}
+.profile-item img {
+  border-radius: 18px;
+}
+.profile-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 20%);
+  border-radius: 18px;
+}
+.profile-text {
+  position: absolute;
+  bottom: 17px;
+  left: 19px;
+}
+.profile-text h5 {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.profile-text p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#footer-part {
+  background-color: #1a1a1a;
+  padding: 65px 0 35px 0;
+}
+
+.footer-container {
+  gap: 100px;
+  grid-template-columns: 450px 510px;
+}
+.column-one h3 {
+  font-size: 4.375rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #e6533c;
+  margin-bottom: 20px;
+}
+.column-one p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 50%);
+  line-height: 24px;
+}
+.column-two {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 145px;
+}
+.footer-menu-list h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.footer-menu-item {
+  margin-bottom: 20px;
+}
+.footer-menu-item .footer-menu-links {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgb(255 255 255 / 50%);
+}
+.line {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 80px 0 35px 0;
+}
+.line-text h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
