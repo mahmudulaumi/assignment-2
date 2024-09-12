@@ -1,2 +1,730 @@
+@media screen and (max-width: 320px) {
+    .sm-device {
+      margin: 0 20px;
+    }
+    .d-sm-none {
+      display: none !important;
+    }
+    .d-block {
+      display: block;
+    }
+    .d-grid {
+      display: grid;
+    }
+ 
+    #header {
+      padding: 20px 0 0 0;
+    }
+    #navbar {
+      margin-bottom: 50px;
+    }
+    .nav-logo a i {
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  
+  
+    .banner {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .banner-text-container {
+      margin-top: 0px;
+    }
+    .banner-text-container h3 {
+      font-size: 2rem;
+      line-height: 45px;
+    }
+    .banner-text-container .text-change {
+      font-size: 3rem;
+      margin-right: 5px;
+    }
+    .banner-text-container p {
+      font-size: 0.875rem;
+      font-weight: 300;
+      max-width: 240px;
+    }
+    .banner-btn {
+      max-width: 100%;
+    }
+    .banner-btn a {
+      font-size: 0.75rem;
+      padding: 14px 0;
+    }
+    .banner-img-container .video h3,
+    .banner-img-container .tutorial .text h3 {
+      font-size: 1rem;
+      letter-spacing: 0px;
+    }
+    .banner-img-container .video p,
+    .banner-img-container .tutorial .text p {
+      font-weight: 300;
+      font-size: 0.75rem;
+    }
+ 
+    .banner-img-container .video {
+      padding: 10px;
+      top: 155px;
+      right: 0;
+    }
+    .banner-img-container .tutorial {
+      padding: 10px;
+      bottom: 65px;
+      left: 0;
+    }
+    .tutorial .icon {
+      width: 25px;
+      height: 25px;
+      margin-right: 6px;
+    }
+    .tutorial .icon i {
+      font-size: 0.75rem;
+    }
+  
+   
+    #habit-section {
+      margin-top: 25px;
+    }
+    .habit-img-container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 14px;
+    }
+    .habit-text-container h3 {
+      font-size: 1.75rem;
+    }
+    .habit-text-container p {
+      font-size: 0.875rem;
+      padding: 0px;
+      margin: 14px 0 40px 0;
+    }
+    .habit-img-item {
+      border: 1px solid rgb(102 102 102 / 24%);
+      padding: 10px 8px;
+    }
+    .habit-img {
+      width: 130px;
+      height: 130px;
+    }
+    .habit-text p {
+      font-weight: 300;
+      font-size: 0.813rem;
+      padding: 0;
+      line-height: 18px;
+    }
+   
+    #my-goal-section {
+      margin: 50px 0;
+    }
+    .container-bg {
+      padding: 20px;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+    .goal-text-container {
+      padding-right: 0px;
+    }
+    .goal-text-container h3 {
+      font-size: 1.75rem;
+      padding-right: 60px;
+    }
+    .goal-text-container p {
+      font-size: 0.875rem;
+      margin: 13px 0 25px 0;
+    }
+    .run-btn a {
+      width: 100%;
+      text-align: center;
+      padding: 10px 20px;
+    }
+   
+    #our-service-part {
+      padding: 20px 0;
+    }
+    .service-text h3 {
+      font-size: 1.75rem;
+      margin-bottom: 10px;
+    }
+    .services-list {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 35px;
+      gap: 15px;
+    }
+    .services-list-item p {
+      font-size: 0.75rem;
+      font-weight: 300;
+    }
+  
+    #bmi-text-part {
+      margin: 40px 0;
+    }
+    .bmi-text h3 {
+      font-size: 1.75rem;
+    }
+    #bmi-calculator-part {
+      padding: 25px 0;
+    }
+    .bmi-calculator-container {
+      gap: 40px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    #bmi-chart-table {
+      margin-top: 20px;
+    }
+    .table-head p {
+      padding: 15px 0 15px 10px;
+    }
+    .table-head h6 {
+      padding: 15px 0 15px 10px;
+    }
+    .bmi-chart-tittle h3,
+    .text-content h3 {
+      font-size: 1.125rem;
+      margin-bottom: 0;
+      letter-spacing: 0;
+    }
+    .text-content p {
+      font-weight: 300;
+      padding: 0;
+      margin-top: 15px;
+    }
+    .data-input input::placeholder,
+    select {
+      font-size: 0.875rem;
+      font-weight: 300;
+    }
+    .calculate-btn button {
+      font-size: 1rem;
+      width: 100%;
+    }
+   
+    #my-team-section {
+      margin: 40px 0;
+    }
+    .text-container {
+      max-width: 670px;
+      margin: 0 auto;
+      padding: 0;
+    }
+    .text-container h3 {
+      font-size: 1.75rem;
+    }
+    .my-team-text {
+      margin-bottom: 40px;
+    }
+  
+    .my-team-container {
+      padding: 15px;
+    }
+    .my-team-profile {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+    }
+    .profile-text h5 {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+   
+    #footer-part {
+      background-color: #1a1a1a;
+      padding: 30px 0 35px 0;
+    }
+    .footer-container {
+      gap: 0;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .column-one {
+      margin-bottom: 30px;
+    }
+    .column-one h3 {
+      font-size: 3rem;
+    }
+    .column-two {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+    .footer-menu-list h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    .footer-menu-item {
+      margin-bottom: 15px;
+    }
+    .footer-menu-item .footer-menu-links {
+      font-size: 1rem;
+    }
+    .line {
+      margin: 25px 0 30px 0;
+    }
+    .line-text h3 {
+      font-size: 1rem;
+    }
+    
+  }
 
+  @media screen and (min-width: 321px) and (max-width: 576px) {
+
+    .d-sm-none {
+      display: none !important;
+    }
+    .d-block {
+      display: block;
+    }
+    .d-grid {
+      display: grid;
+    }
+    .sm-device {
+      margin-left: 20px !important;
+      margin-right: 20px !important;
+    }
+    
+    #navbar {
+      margin-bottom: 70px;
+    }
+    .nav-logo a {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-logo a i {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+   
+    .banner {
+      flex-direction: column;
+    }
+    .banner {
+      gap: 35px;
+    }
+    .banner-text-container {
+      margin-top: 0px;
+    }
+    .banner-text-container h3 {
+      font-size: 1.875rem;
+      line-height: 45px;
+      max-width: 215px;
+    }
+    .banner-text-container .text-change {
+      font-size: 3.438rem;
+      margin-right: 6px;
+    }
+    .banner-text-container p {
+      max-width: 345px;
+    }
+    .banner-btn {
+      gap: 10px;
+      max-width: 100%;
+    }
+    .banner-btn a {
+      font-size: 0.875rem;
+      padding: 12px 0;
+    }
+    .banner-img-container {
+      margin: 0 auto;
+    }
+   
+    .banner-img-container .video {
+      top: 75px;
+      right: 0;
+      padding: 11px 5px;
+    }
+    .banner-img-container .tutorial {
+      bottom: 255px;
+      left: 0;
+      padding: 14px;
+    }
+    .banner-img-container .video h3,
+    .banner-img-container .video h3 {
+      font-size: 1.25rem;
+      letter-spacing: 0;
+    }
+    .banner-img-container .video p,
+    .banner-img-container .tutorial .text p {
+      font-size: 0.813rem;
+      font-weight: 300;
+    }
+    .tutorial .icon {
+      width: 30px;
+      height: 30px;
+    }
+    .tutorial i {
+      font-size: 0.75rem;
+    }
+   
+    #habit-section {
+      margin-top: 0px;
+    }
+    .sm-device-container {
+      padding: 0 1.75rem;
+    }
+    .habit-text-container h3 {
+      font-size: 1.875rem;
+    }
+    .habit-text-container p {
+      color: #fff;
+      font-weight: 400;
+      font-size: 0.875rem;
+  
+      margin: 14px 0 58px 0;
+    }
+    .habit-img-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .container-bg {
+      padding: 25px;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+    .goal-text-container {
+      padding-right: 0;
+    }
+    .goal-text-container h3 {
+      font-size: 2rem;
+      padding-right: 80px;
+    }
+    .goal-text-container p {
+      font-size: 0.875rem;
+      font-weight: 300;
+    }
+   
+    #our-service-part {
+      padding: 50px 0;
+    }
+    .services-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .service-text h3 {
+      font-size: 2rem;
+    }
+   
+    .training-text-container {
+      margin-bottom: 40px;
+      padding-right: 50px;
+    }
+    .training-text-container h3 {
+      font-size: 2rem;
+      margin-bottom: 14px;
+    }
+    .training-text-container p {
+      line-height: 24px;
+    }
+    .training-img-gallery {
+      grid-template-rows: auto;
+    }
+    .gallery-collage {
+      grid-column: span 7;
+    }
+    .gallery-collage-big {
+      grid-column: span 5;
+    }
+    #collage-four h5,
+    .sky-blue h5,
+    .black-white h5,
+    .light-green h5 {
+      position: absolute;
+      bottom: 16px;
+      left: 14px;
+    }
+   
+    #bmi-text-part {
+      margin: 30px 0;
+    }
+    .bmi-text h3 {
+      font-size: 2rem;
+    }
+    .bmi-text p {
+      padding-right: 50px;
+    }
+    
+    #bmi-calculator-part {
+      padding: 35px 0 45px 0;
+    }
+    .bmi-calculator-container {
+      gap: 40px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi-chart-tittle h3 {
+      font-size: 1rem;
+      margin-bottom: 25px;
+    }
+    .text-content h3 {
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+    .text-content p {
+      padding-right: 50px;
+    }
+   
+    #my-team-section {
+      margin: 65px 0;
+    }
+    .my-team-text {
+      margin-bottom: 35px;
+    }
+    .text-container h3 {
+      font-size: 2rem;
+    }
+    .my-team-profile {
+      grid-template-columns: repeat(1, 1fr);
+    }
+   
+    #footer-part {
+      padding: 45px 0 55px 0;
+    }
+    .footer-container {
+      gap: 35px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .column-one h3 {
+      font-size: 3.75rem;
+    }
+    .column-two {
+      gap: 30px;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-menu .footer-menu-item:last-child {
+      margin-bottom: 0;
+    }
+    .footer-menu-list h3 {
+      font-size: 1.563rem;
+      margin-bottom: 25px;
+    }
+    .footer-menu-item .footer-menu-links {
+      font-size: 1rem;
+    }
+    .line {
+      margin: 70px 0 40px 0;
+    }
+  }
+ 
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+  
+    .nav-list {
+      gap: 30px;
+    }
+    .nav-list .nav-item {
+      padding: 8px 12px;
+    }
+    .nav-list .nav-item .nav-links {
+      font-size: 1rem;
+    }
+  
+    .banner {
+      gap: 100px;
+    }
+    .banner-text-container {
+      max-width: 380px;
+    }
+    .banner-text-container .text-change {
+      font-size: 3.938rem;
+    }
+    .banner-text-container h3 {
+      font-size: 2.5rem;
+      line-height: 50px;
+      max-width: 290px;
+    }
+    .banner-btn a {
+      font-size: 1rem;
+      padding: 13px 0;
+    }
+    
+    .banner-img-container {
+      max-width: 280px;
+    }
+    
+    .banner-img-container .video {
+      top: 95px;
+      right: -55px;
+      padding: 18px 13px;
+    }
+    .banner-img-container .tutorial {
+      bottom: 45px;
+      left: -75px;
+      padding: 18px 14px;
+    }
+    .banner-img-container .video h3,
+    .banner-img-container .tutorial .text h3 {
+      font-size: 1.5rem;
+      letter-spacing: 0;
+    }
+    .banner-img-container .video p,
+    .banner-img-container .tutorial .text p {
+      font-size: 0.875rem;
+    }
+    .tutorial .icon {
+      width: 35px;
+      height: 35px;
+    }
+    .tutorial i {
+      color: #fff;
+      font-size: 0.875rem;
+    }
+
+    #habit-section {
+      margin-top: 60px;
+    }
+    .habit-text-container h3 {
+      font-size: 2.5rem;
+    }
+    .habit-text-container p {
+      margin: 15px 0 40px 0;
+      padding: 0 70px;
+    }
+    .habit-img-container {
+      gap: 12px;
+      border-left: none;
+    }
+    .habit-img-item {
+      padding: 10px;
+    }
+    .habit-img {
+      width: 100px;
+      height: 100px;
+    }
+    .habit-text h3 {
+      font-size: 1rem;
+      margin-top: 20px;
+    }
+    .habit-text p {
+      font-weight: 300;
+      font-size: 0.813rem;
+      margin-top: 10px;
+      padding: 0;
+    }
+
+    #my-goal-section {
+      margin: 60px 0;
+    }
+  
+
+    .container-bg {
+      grid-template-columns: 350px 250px;
+      gap: 100px;
+    }
+    .goal-text-container {
+      padding-right: 0px;
+    }
+    .goal-text-container h3 {
+      font-size: 2.5rem;
+      padding-right: 60px;
+    }
+    .goal-text-container p {
+      font-size: 0.875rem;
+      font-weight: 300;
+      line-height: 20px;
+      margin: 15px 0 25px 0;
+    }
+    .run-btn {
+      width: 50%;
+    }
+    .run-btn a {
+      width: 100%;
+      text-align: center;
+    }
+
+    #our-service-part {
+      padding: 30px 0;
+    }
+    .service-text h3 {
+      font-size: 2.5rem;
+    }
+    .services-list {
+      margin-top: 45px;
+      gap: 15px;
+    }
+    .services-list-item {
+      padding: 10px;
+    }
+    .services-list-item h6 {
+      font-size: 1.125rem;
+    }
+    .services-list-item p {
+      font-weight: 300;
+    }
+
+    #bmi-text-part {
+      margin: 60px 0;
+    }
+    .bmi-text h3 {
+      font-size: 2.5rem;
+    }
+    .bmi-text p {
+      padding-right: 190px;
+    }
+    #bmi-calculator-part {
+      padding: 20px 0;
+    }
+    .bmi-calculator-container {
+      gap: 70px;
+      grid-template-columns: 310px 380px;
+    }
+    .calculate-btn button {
+      font-size: 1rem;
+      padding: 12px 40px;
+    }
+
+    #my-team-section {
+      margin: 60px 0;
+    }
+    .my-team-container {
+      padding: 15px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    .profile-item img {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    .my-team-profile {
+      gap: 15px;
+    }
+    .text-container h3 {
+      font-size: 2.5rem;
+    }
+    .profile-text h5 {
+      font-size: 1.063rem;
+      font-weight: 700;
+    }
+   
+    #footer-part {
+      padding: 60px 0 40px 0;
+    }
+    .footer-container {
+      gap: 80px;
+      grid-template-columns: 300px 380px;
+    }
+    .column-one p {
+      font-weight: 300;
+    }
+    .column-two {
+      gap: 80px;
+      grid-template-columns: 150px 150px;
+    }
+    .footer-menu-list h3 {
+      font-size: 1.5rem;
+    }
+    .footer-menu-item .footer-menu-links {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+    .menu-list-end {
+      justify-self: end;
+    }
+    
+  }
   
