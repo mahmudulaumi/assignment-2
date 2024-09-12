@@ -61,3 +61,46 @@
   .links-bg {
     background-color: #e6533c;
   }
+
+  #header {
+    padding: 58px 0 0 0;
+    background: linear-gradient(
+      180deg,
+      rgb(26 26 26) 0%,
+      rgb(74 74 74) 50%,
+      rgb(10 10 10) 100%
+    );
+  }
+  #navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .page-logo a {
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #e6533c;
+  }
+  .nav-list {
+    border: 1px solid rgb(114 107 107);
+    padding: 4px;
+    border-radius: 40px;
+    gap: 47px;
+  }
+  .nav-list .nav-item {
+    padding: 8px 20px;
+    transition: all ease-in-out 0.5s;
+  }
+  .nav-list .nav-item:hover {
+    background-color: #e6533c;
+    border-radius: 45px;
+  }
+  .nav-list .nav-uni {
+    border-radius: 46px;
+  }
+  .nav-list .nav-item .nav-links {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+  }
